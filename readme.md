@@ -43,3 +43,15 @@ Open Swagger UI:
 ```bash
 http://localhost:5163/swagger
 ```
+
+🏗️ Architecture
+<details> <summary><strong>Click to expand Architecture details</strong></summary>
+Technology Stack
+
+Backend: .NET 8 Web API
+
+Frontend: React
+
+Data Layer: EF Core (InMemory)
+
+Documentation: Swagger / Swashbuckle
