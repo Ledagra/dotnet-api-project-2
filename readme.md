@@ -123,6 +123,8 @@ Scoring performed server-side to avoid client tampering
 
 🧪 Unit Tests
 
+<details><summary><strong>Click to expand Unit Tests details</strong></summary>
+
 Run all tests from project folder using:
 ```bash
 dotnet test
@@ -136,6 +138,7 @@ Run fully in memory
 Generate a fresh EF Core context per test
 
 Validate scoring, entity creation, deletion, and relationships
+</details>
 
 🌐 Frontend Overview
 <details> <summary><strong>Click to expand Frontend details</strong></summary>
