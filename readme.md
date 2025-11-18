@@ -1,1 +1,5 @@
-#test
+![.NET 8](https://img.shields.io/badge/.NET-8.0-blueviolet)
+![React](https://img.shields.io/badge/React-19-blue)
+![EF Core](https://img.shields.io/badge/EF%20Core-InMemory-green)
+![Swagger](https://img.shields.io/badge/Docs-Swagger-yellow)
+![Tests](https://img.shields.io/badge/Tests-xUnit-brightgreen)
