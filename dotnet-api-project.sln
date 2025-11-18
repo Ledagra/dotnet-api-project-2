@@ -1,0 +1,30 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAPApi", "CAPApi\CAPApi.csproj", "{B6088CE1-882D-727B-E3AE-00591E1DB03E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAPApi.Tests", "CAPApi.Tests\CAPApi.Tests.csproj", "{62077A07-0D01-410F-91A1-276FABAB39E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6088CE1-882D-727B-E3AE-00591E1DB03E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6088CE1-882D-727B-E3AE-00591E1DB03E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6088CE1-882D-727B-E3AE-00591E1DB03E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6088CE1-882D-727B-E3AE-00591E1DB03E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62077A07-0D01-410F-91A1-276FABAB39E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62077A07-0D01-410F-91A1-276FABAB39E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62077A07-0D01-410F-91A1-276FABAB39E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62077A07-0D01-410F-91A1-276FABAB39E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1B61515-76C2-48AB-A2F9-4EBDD5FE2EB0}
+	EndGlobalSection
+EndGlobal

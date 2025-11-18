@@ -1,0 +1,67 @@
+###########################################
+# Global .NET Ignore Rules
+###########################################
+
+bin/
+obj/
+out/
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+.vscode/
+*.code-workspace
+
+.idea/
+
+*.log
+
+publish/
+
+###########################################
+# ASP.NET Core Specific
+###########################################
+
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+!appsettings.json        # allow base config
+
+.env
+.env.*
+
+###########################################
+# xUnit Tests
+###########################################
+
+TestResults/
+coverage/
+*.trx
+
+###########################################
+# NuGet
+###########################################
+
+*.nupkg
+packages/
+**/packages/*
+**/AssemblyInfo.cs
+
+###########################################
+# Temp files
+###########################################
+
+*.tmp
+*.temp
+*.cache
+*.pid
+*.svclog
+*.manifest
+
+###########################################
+# PDF / Docs
+###########################################
+
+*.pdf
