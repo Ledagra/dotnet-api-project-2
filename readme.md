@@ -32,3 +32,14 @@
 cd CAPApi
 dotnet restore
 dotnet run
+```
+
+The API will run at:
+```bash
+http://localhost:5163
+```
+
+Open Swagger UI:
+```bash
+http://localhost:5163/swagger
+```
