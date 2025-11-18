@@ -120,3 +120,85 @@ Zero if blank
 Scoring performed server-side to avoid client tampering
 
 </details>
+
+🧪 Unit Tests
+
+Run all tests from project folder using:
+```bash
+dotnet test
+```
+Unit tests:
+
+Use xUnit
+
+Run fully in memory
+
+Generate a fresh EF Core context per test
+
+Validate scoring, entity creation, deletion, and relationships
+
+🌐 Frontend Overview
+<details> <summary><strong>Click to expand Frontend details</strong></summary>
+Structure
+
+The frontend uses Create React App with a modal-based UI.
+
+User Flows
+
+Create surveys
+
+Edit or delete surveys
+
+Add/edit/delete questions
+
+Answer surveys
+
+View saved responses
+
+Survey Creation
+
+Requires title and description
+
+Auto-refreshes list
+
+Pagination after 4+ surveys
+
+SurveyCard actions:
+
+Edit
+
+Delete
+
+Answer survey
+
+Question Management
+
+Supports single-choice and multi-choice
+
+Requires question text, type, and answers
+
+Appears in a table once added
+
+Hard limit of 10 questions per survey
+
+Answering Surveys
+
+Partial submissions allowed
+
+Only answered questions count toward scoring
+
+Viewing Responses
+
+Displays:
+
+Response ID
+
+Survey title
+
+Calculated score
+
+Selected answers
+
+Free-text answers
+
+</details>
